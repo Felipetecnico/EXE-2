@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sobre</title>
+
+</head>
+<body>
+   <H1>O que somos?</H1>
+   <h3><p>A INFO HTML é uma empresa dedicada a democratizar o acesso ao conhecimento em tecnologia, oferecendo PDFs 
+de cursos gratuitos voltados para áreas como programação, desenvolvimento web, banco de dados, redes, cibersegurança e muito mais.
+Seu objetivo é facilitar o aprendizado de forma acessível,
+prática e de qualidade, permitindo que qualquer pessoa — seja iniciante ou profissional — possa estudar no seu próprio ritmo, sem custos. Através de materiais digitais organizados e atualizados, a INFO HTML contribui para a formação técnica de
+milhares de estudantes e entusiastas da tecnologia.</p></h3>
+
+<center><img src="/img/Texto do seu parágrafo.png" alt=""></center></body>
+</html>
