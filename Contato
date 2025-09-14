@@ -1,0 +1,110 @@
+DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+   
+    
+</head>
+<center>
+    
+    <body>
+        
+        <a href="https://wa.me/qr/475ZPMICFK7ON1"><img src="https://store-images.s-microsoft.com/image/apps.8453.13655054093851568
+.4a371b72-2ce8-4bdb-9d83-be49894d3fa0.7f3687b9-847d-4f86-bb5c-c73259e2b38e?h=210" alt=""></a>
+<strong><p>Meu whatsapp acima para contatar-me</p></strong>
+ 
+</body>
+
+</center>
+</html>
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Formulário de Contato</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f3f3f3;
+      padding: 20px;
+    }
+
+    .form-contato {
+      background: #fff;
+      padding: 25px;
+      border-radius: 8px;
+      max-width: 500px;
+      margin: 0 auto;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+
+    .form-contato h2 {
+      margin-bottom: 15px;
+      color: #333;
+    }
+
+    .form-contato label {
+      display: block;
+      margin-top: 10px;
+      margin-bottom: 5px;
+      color: #555;
+    }
+
+    .form-contato input,
+    .form-contato textarea {
+      width: 100%;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      resize: vertical;
+    }
+
+    .form-contato button {
+      margin-top: 15px;
+      background-color: #007BFF;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    .form-contato button:hover {
+      background-color: #0056b3;
+    }
+  </style>
+</head>
+<head>
+    
+</head>
+<body>
+
+  <form class="form-contato" action="mailto:seuemail@exemplo.com" method="post" enctype="text/plain">
+    <h2>Fale Conosco</h2>
+
+    <label for="nome">Nome:</label>
+    <input type="text" id="nome" name="nome" required>
+
+    <label for="email">E-mail:</label>
+    <input type="email" id="email" name="email" required>
+
+    <label for="assunto">Assunto:</label>
+    <input type="text" id="assunto" name="assunto">
+
+    <label for="mensagem">Mensagem:</label>
+    <textarea id="mensagem" name="mensagem" rows="5" required></textarea>
+
+    <button type="submit">Enviar</button>
+  </form>
+
+  <center> <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d120136.11911014264!2d-44.154120484658606!3d-19.786836961538075!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xa68d65ce6647bb%3A0xf6b57930a4c07785!2sRibeir%C3%A3o%20das%20Neves%2C%20MG!5e0!3m2!1spt-BR!2sbr!4v1757817838808!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+ <center><h4>Telefone 3198778-5446          Texas USA       </h4>
+ 
+ <footer>
+  <p>&copy; 2025 INFO HTML. Todos os direitos reservados.</p>
+</footer></center>
+</body>
+</html>
+<!
