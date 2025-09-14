@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Info html</title>
+
+    <style>
+        /* Estilo Geral */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+            background-color: darkorange;
+        }
+
+        /* Estilo do Cabeçalho */
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        header h1 {
+            margin: 0;
+        }
+
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+
+        nav ul li {
+            margin-left: 20px;
+        }
+
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+        }
+
+        /* Estilo do Banner */
+        .banner {
+            width: 100%;
+            height: 300px;
+            background-color: #ccc;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 30px;
+            background-color: darkorange;
+        }
+
+        .banner img {
+           border: 3px solid rgb(218, 15, 15);
+            width: 1299px;
+            height: 300px;
+        }
+
+        /* Estilo da Grade de Produtos */
+        .product-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+            padding: 20px;
+           transition: transform 0.3s ease;
+
+        }
+
+        .product-item {
+            background-color: #f4f4f4;
+            padding: 30px;
+            text-align: center;
+        ;
+        }
+
+        .product-item img {
+            max-width: 500px;
+           
+
+            height: 190px;
+        }
+        
+
+        /* Estilo do Rodapé */
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>INFO Html</h1>
+        <nav>
+            <ul>
+                <li><a href="/html/Links alternativos.html">Link Alternativos</a></li>
+                <li><a href="/html/sobre.html">Sobre</a></li>
+                <li><a href="/html/Contato.html">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="banner">
+        <img src="img/Texto do seu parágrafo.png" alt="Banner da Empresa">
+    </div>
+
+    <div class="product-grid">
+        <div class="product-item">
+            <a href="https://www.cin.ufpe.br/~prsg/html"><img src="https://static.vecteezy.com/ti/vetor-gratis/t1/13313458-ilustracao-de-renderizacao-3d-de-icone-html-vetor.jpg" alt="Produto 1" >
+            <p>curso de html</p></a>
+        </div>
+        <div class="product-item">
+            <a href="https://docente.ifsc.edu.br/joao.augusto/MaterialDidatico/2018-1/Introdu%C3%A7%C3%A3o%20%C3%A0%20Programa%C3%A7%C3%A3o/JavaScript/Tutorial%20B%C3%A1sico%20JavaScript.pdf"><img src="https://logos-world.net/wp-content/uploads/2023/02/JavaScript-Logo.png" alt="Produto 2">
+            <p>Curso js</p></a>
+        </div>
+        <div class="product-item">
+            <a href="https://docente.ifsc.edu.br/vilson.junior/pi/03_Introducao_CSS.pdf"><img src="https://www.brasilcode.com.br/wp-content/uploads/2022/12/geradores-codigos-CSS.jpg.webp" alt="Produto 3">
+            <p>Curso css</p></a>
+        </div>
+        <div class="product-item">
+            <a href="https://ifpr.edu.br/pronatec/wp-content/uploads/sites/46/2012/07/mmc1.pdf"><img src="https://www.zaninitec.com.br/blog/wp-content/uploads/2024/02/o-tecnico-consertando-o-computador-hardware-de-computador-consertando-atualize-e-tecnologia-1.jpg" alt="Produto 4">
+            <p>Curso manutenção computadores</p></a>
+        </div>
+        <div class="product-item">
+            <a href="https://www.ufsm.br/app/uploads/sites/413/2018/12/arte_informatica_basica.pdf"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTrI7XdPXlwgITNzZUUjKUNcgnyuB23dLSFQQ&s" alt="Produto 5">
+            <p>Curso de impressora</p></a>
+        </div>
+        <div class="product-item">
+            <a href="https://ifpr.edu.br/pronatec/wp-content/uploads/sites/46/2012/07/Instalador_e_Reparador_de_Redes_de_Computadores.pdf"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQRB7Y51wzDFSVBqFp3kULhm7mQERn0xW44Sw&s" alt="Produto 6">
+            <p>Curso de redes</p></a>
+        </div>
+    </div>
+
+    <footer>
+        <p>Telefone: (11) 1234-5678 | Endereço: Rua Exemplo, 123, Cidade, Estado</p>
+    </footer>
+
+</body>
+</html>
